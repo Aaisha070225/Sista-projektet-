@@ -95,3 +95,8 @@ main {
 .item img{
   width: 100%;
 }
+
+.innerform{
+    background-color: white;
+    width: 10%;
+}
