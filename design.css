@@ -4,14 +4,14 @@
     }
 }
 
-nav {
-    background-color: lightblue;
+ nav {
+    background-color: white;
     grid-area: nav;
 }
 
 .navbar ul {
     list-style-type: none;
-    background-color: lightblue;
+    background-color: white;
     padding: 0;
     margin: 0;
 
@@ -24,15 +24,14 @@ nav {
     display: block;
     text-align: center;
 }
-
 .navbar {
-    background-color: darkblue;
+    background-color: white;
     transition: 1s;
 }
 
 .navbar ul {
     list-style-type: none;
-    background-color: lightblue;
+    background-color: coral;
     padding: 0;
     margin: 0;
 
@@ -41,6 +40,12 @@ nav {
 
 .navbar li {
     float: left;
+}
+
+.navbar-end {
+
+ display: flex;
+ gap: 5px;
 }
 
 header {
